@@ -1,3 +1,14 @@
+    <script type="importmap">
+    {
+        "imports": {
+            "three": "https://unpkg.com/three/build/three.module.js",
+            "orbitcontrols": "https://unpkg.com/three/examples/jsm/controls/OrbitControls.js",
+            "datgui": "https://unpkg.com/dat.gui/build/dat.gui.module.js"
+        }
+    }
+    </script>
+
+
 import * as mat4 from "./lib/gl-matrix/mat4.js";
 import {toRadian} from "./lib/gl-matrix/common.js";
 import * as THREE from 'three';
