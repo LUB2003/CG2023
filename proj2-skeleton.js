@@ -1,5 +1,6 @@
 import * as mat4 from "./lib/gl-matrix/mat4.js";
 import {toRadian} from "./lib/gl-matrix/common.js";
+import * as THREE from 'three';
 
 const loc_aPosition = 0;
 const loc_aColor = 1;
